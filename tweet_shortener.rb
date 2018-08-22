@@ -32,8 +32,6 @@ def word_substituter (tweet)
       puts word
       if word == long_word
         puts short_word
-      else
-        puts word
       end
     end
   end
