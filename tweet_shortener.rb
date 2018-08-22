@@ -33,7 +33,7 @@ def word_substituter (tweet)
 
     dictionary.each do |long_word, short_word|
       if word == long_word
-        word = short_word
+        new_word = short_word
       end
     end
     new_tweet.push(new_word)
