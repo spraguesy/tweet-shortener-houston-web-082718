@@ -60,7 +60,7 @@ def shortened_tweet_truncator (tweet)
     end
     new_tweet = new_tweet + "..."
 
-  else 
+  else
     new_tweet = tweet
   end
   new_tweet
