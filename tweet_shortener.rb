@@ -29,7 +29,6 @@ def word_substituter (tweet)
 
   tweet.split(" ").each do |word|
     dictionary.each do |long_word, short_word|
-      puts word
       if word == long_word
         puts short_word
       end
