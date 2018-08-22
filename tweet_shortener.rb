@@ -36,4 +36,5 @@ def word_substituter (tweet)
     end
     new_word
   end
+  tweet
 end
