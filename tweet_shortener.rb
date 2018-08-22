@@ -23,5 +23,5 @@ def word_substituter (sting)
         new_string.push(word)
       end
     end
-
+  end
 end
