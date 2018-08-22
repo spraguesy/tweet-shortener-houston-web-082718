@@ -51,8 +51,14 @@ def selective_tweet_shortener (tweet)
 end
 
 def shortened_tweet_truncator (tweet)
-  if word_substituter(tweet) > 140
-    tweet
+  new_tweet = ''
+  if word_substituter(tweet).length > 140
+    tweet.each_with_index do |char, index|
+        if index <= 140
+          new_tweet = new_tweet + char
+        end
+      end
 
   end
+  new_tweet
 end
