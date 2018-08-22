@@ -54,7 +54,7 @@ def shortened_tweet_truncator (tweet)
   new_tweet = ''
   if word_substituter(tweet).length > 140
     tweet.split("").each do |char|
-        if new_tweet.length <= 140
+        if new_tweet.length <= 137
           new_tweet = new_tweet + char
         end
     end
