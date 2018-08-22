@@ -15,10 +15,11 @@ dictionary = {
 
 def word_substituter (sting)
   sting.split(' ').each do |word|
+    the_word = word
     dictionary.each do |long, short|
-      if word == long
+      if the_word == long
         puts short
-      else
+      else 
         puts word
       end
     end
