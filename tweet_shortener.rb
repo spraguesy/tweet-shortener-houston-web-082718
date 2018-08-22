@@ -27,11 +27,13 @@ def word_substituter (tweet)
     "and" => '&'
   }
 
-  tweet.split(" ").each do |word|
+  tweet.split(" ").collect do |word|
+    new_word = word
     dictionary.each do |long_word, short_word|
       if word == long_word
-        puts short_word
+        word = short_word
       end
     end
+    new_word
   end
 end
