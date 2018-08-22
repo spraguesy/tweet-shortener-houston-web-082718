@@ -13,6 +13,6 @@ dictionary = {
   "and" => '&'
 }
 
-def word_substituter (tweet)
+def word_substituter (tweet, dictionary)
   puts dictionary
 end
