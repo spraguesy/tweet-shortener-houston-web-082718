@@ -14,7 +14,7 @@ dictionary = {
 }
 
 def word_substituter (sting)
-  sting.to_a!
+  sting.split(" ")
   new_string = []
   sting.each do |word|
     print word
