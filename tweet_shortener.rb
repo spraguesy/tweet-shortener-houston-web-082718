@@ -70,4 +70,4 @@ def bulk_tweet_shortener (tweets)
   tweets.each do |tweet|
     puts selective_tweet_shortener(tweet)
   end
-  
+end
