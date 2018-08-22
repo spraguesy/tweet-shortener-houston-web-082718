@@ -67,7 +67,7 @@ def shortened_tweet_truncator (tweet)
 end
 
 def bulk_tweet_shortener (tweets)
-  tweets.each do |tweet|
+  tweets.collect do |tweet|
     puts selective_tweet_shortener(tweet)
   end
 end
