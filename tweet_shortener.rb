@@ -37,7 +37,7 @@ def word_substituter (tweet)
       end
     end
     new_tweet.push(new_word)
-    puts new_word
+    new_word
   end
   new_tweet.join(" ")
 end
@@ -47,3 +47,4 @@ def selective_tweet_shortener (tweet)
     word_substituter(tweet)
   end
 end
+  
