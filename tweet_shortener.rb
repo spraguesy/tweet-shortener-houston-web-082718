@@ -26,10 +26,11 @@ def word_substituter (tweet)
     "at" => '@',
     "and" => '&'
   }
-
+  
+  new_tweet = []
   tweet.split(" ").each do |word|
     new_word = word
-    new_tweet = []
+    
     dictionary.each do |long_word, short_word|
       if word == long_word
         word = short_word
