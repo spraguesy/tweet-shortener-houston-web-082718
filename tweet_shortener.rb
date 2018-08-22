@@ -19,7 +19,7 @@ def word_substituter (sting)
     dictionary.each do |long, short|
       if the_word == long
         puts short
-      else 
+      else
         puts word
       end
     end
