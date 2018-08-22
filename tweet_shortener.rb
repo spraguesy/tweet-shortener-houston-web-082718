@@ -22,5 +22,6 @@ def word_substituter (sting)
       else
         new_string.push(word)
       end
-        
+    end
+
 end
