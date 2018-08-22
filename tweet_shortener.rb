@@ -41,3 +41,10 @@ def word_substituter (tweet)
   end
   new_tweet.join(" ")
 end
+
+def selective_tweet_shortener (tweet)
+  if tweet.split("") > 140
+    word_substituter(tweet)
+  end
+end
+  
