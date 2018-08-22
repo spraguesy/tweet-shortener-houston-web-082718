@@ -15,6 +15,7 @@ dictionary = {
 
 def word_substituter (sting)
   sting.split(" ")
+  puts sting
   new_string = []
   sting.each do |word|
     print word
