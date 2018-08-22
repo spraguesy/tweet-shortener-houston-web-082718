@@ -37,6 +37,7 @@ def word_substituter (tweet)
       end
     end
     new_tweet.push(new_word)
+    puts new_word
   end
   new_tweet.join(" ")
 end
