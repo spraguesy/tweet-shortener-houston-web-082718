@@ -14,9 +14,9 @@ dictionary = {
 }
 
 def word_substituter (sting)
-  print sting
   new_string = []
   sting.each do |word|
+    print word
     dictionary.each do |key, value|
       if word == key
         new_string.push(value)
