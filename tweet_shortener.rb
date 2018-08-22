@@ -13,7 +13,7 @@ dictionary = {
   "and" => '&'
 }
 
-def word_substituter (sting)
+def word_substituter (tweet)
   dictionary.each do |long, short|
     puts "#{long} #{short}"
   end
