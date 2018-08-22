@@ -14,8 +14,8 @@ dictionary = {
 }
 
 def word_substituter (sting)
-  sting.split(" ")
-  sting.each do |word|
+  sting.
+  sting.split(' ').each do |word|
     puts word
   end
 end
