@@ -47,4 +47,3 @@ def selective_tweet_shortener (tweet)
     word_substituter(tweet)
   end
 end
-  
